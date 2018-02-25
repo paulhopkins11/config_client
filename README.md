@@ -8,7 +8,7 @@ This application has an http endpoint at the root of the context which will outp
 You must first start the Config Server application. 
 
 ## Running this application
-You can then start this application using `mvn spring-boot:run` or build the application first using `mvn package` and then start using
+You can start this application using `mvn spring-boot:run` or build the application first using `mvn package` and then start using
 `java -jar config_client.jar` 
 Once started you can verify it is running correctly by using `curl localhost:9000` and the output should be `application.info set to 'default : App 2'`
 
