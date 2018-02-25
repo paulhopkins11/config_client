@@ -1,0 +1,47 @@
+spring:
+  label: 'some label'
+  application:  
+    name: 'app1'
+#    name: 'app2'
+
+---
+
+spring:
+    profiles: default
+server:
+    port: 9000
+
+---
+
+spring:
+    profiles: dev
+server:
+    port: 9001
+
+---
+
+spring:
+    profiles: local
+server:
+    port: 9002
+    
+---
+
+spring:
+    profiles: uat
+server:
+    port: 9003
+    
+---
+
+spring:
+    profiles: preprod
+server:
+    port: 9004
+    
+---
+
+spring:
+    profiles: prod
+server:
+    port: 9005
